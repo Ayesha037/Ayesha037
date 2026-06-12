@@ -127,11 +127,9 @@ I build intelligent systems that turn complex medical and financial data into ac
 
 - 🎓 CS Student passionate about **AI for good**
 - 🏥 Specialized in **Healthcare AI** and **NLP**
-- 📍 Based in India (Guntur, Andhra Pradesh)
-- 🔬 Published research in medical AI
 - 🚀 Built 6+ production-grade projects
 - 💪 Comfortable with imbalanced data, medical datasets, and ethical AI
 
 ---
 
-*Last updated: June 2026*
+
