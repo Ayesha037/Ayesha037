@@ -35,8 +35,6 @@ I build intelligent systems that turn complex medical and financial data into ac
 
 ## 📊 GitHub Overview
 
-![Ayesha's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ayesha037&show_icons=true&theme=tokyonight&count_private=true&hide_border=true)
-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayesha037&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
