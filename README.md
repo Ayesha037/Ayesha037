@@ -1,6 +1,6 @@
 # Hi, I'm Mohammad Ayesha Summaiyya 👋
 
-I'm a **CS engineer specialising in AI for healthcare and clinical decision-making**.  
+I'm a **CS engineer specialising in AI **.  
 I build intelligent systems that turn complex medical and financial data into actionable insights.
 
 ---
