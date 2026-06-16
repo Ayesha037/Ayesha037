@@ -1,14 +1,11 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Mohammad%20Ayesha%20Summaiyya&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20ML%20Researcher%20%7C%20Healthcare%20AI%20%7C%20Product%20Designer&descAlignY=58&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Mohammad%20Ayesha%20Summaiyya&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=CS%20Student%20%7C%20Published%20ML%20Researcher%20%7C%20AI%20for%20Healthcare&descAlignY=58&descSize=18" />
 
-<!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=👩‍💻+AI+Engineer+%26+Product+Designer;🧠+Published+ML+Researcher;🏥+Clinical+AI+%26+Healthcare+ML;💬+NLP+%26+Mental+Health+Chatbot+Developer;🔬+RAG+Systems+%26+Fraud+Intelligence;🚀+Deploying+AI+for+Real-World+Impact)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Published+in+ISJEM+%28Impact+Factor+8.072%29+%F0%9F%93%84;Built+a+live+Mental+Health+Chatbot+%F0%9F%A7%A0;Predicting+Lung+Cancer+Recurrence+with+ML+%F0%9F%AB%81;Deploying+AI+that+actually+helps+people+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <br/>
 
-<!-- Live Project Badges -->
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Live-A855F7?style=for-the-badge)](https://portfolio-clean-sigma.vercel.app/)
 [![Mental Health App](https://img.shields.io/badge/🧠%20Mental%20Health%20App-Live-10B981?style=for-the-badge)](https://mental-health-support-egri.onrender.com/)
 [![GitHub followers](https://img.shields.io/github/followers/Ayesha037?label=Followers&style=social)](https://github.com/Ayesha037)
@@ -18,41 +15,40 @@
 
 ---
 
-## 🌟 About Me
+## 🙋‍♀️ About Me
 
-```python
-class AyeshaSummaiyya:
-    def __init__(self):
-        self.name        = "Mohammad Ayesha Summaiyya"
-        self.role        = "AI Engineer & Product Designer"
-        self.expertise   = ["RAG Systems", "Clinical ML", "Fraud Intelligence", "NLP"]
-        self.passion     = "Building AI that heals, protects and empowers people"
-        self.deployed    = [
-            "🌐 Portfolio  → portfolio-clean-sigma.vercel.app",
-            "🧠 MH Chatbot → mental-health-support-egri.onrender.com"
-        ]
-        self.status      = "Published ML Researcher | Open to Collaborations"
-        self.fun_fact    = "I believe AI should heal, not just compute 🏥🤖"
+I'm a final-year CS student who builds AI that actually does something useful — from predicting lung cancer recurrence to supporting mental health. My research on NSCLC recurrence prediction using clinical and radiomic features got published in **ISJEM (Impact Factor 8.072)**, which I'm genuinely proud of.
 
-    def say_hi(self):
-        print("Thanks for visiting! Let's build something that matters.")
-
-me = AyeshaSummaiyya()
-me.say_hi()
-```
+Outside research, I ship real things — a mental health chatbot and my portfolio are both live and deployed. I care about making AI accessible, interpretable, and meaningful.
 
 ---
 
-## 🌐 Live Deployments
+## 📄 Published Research
 
-<div align="center">
+<table>
+<tr>
+<td>
 
-| 🚀 Project | 🔗 Live Link | 🛠️ Built With |
-|:---:|:---:|:---:|
-| **🎨 Personal Portfolio** | [![Visit](https://img.shields.io/badge/Visit-portfolio--clean--sigma.vercel.app-A855F7?style=flat-square&logo=vercel)](https://portfolio-clean-sigma.vercel.app/) | Vercel · Interactive Design |
-| **🧠 Mental Health Chatbot** | [![Visit](https://img.shields.io/badge/Visit-mental--health--support.onrender.com-10B981?style=flat-square&logo=render)](https://mental-health-support-egri.onrender.com/) | Python · Flask · Render |
+### 🫁 Machine Learning Based Prediction of Recurrence in Non-Small Cell Lung Cancer
+**International Scientific Journal of Engineering and Management (ISJEM)**
+`Volume 05 | Issue 04 | April 2026` · `DOI: 10.55041/ISJEM06362` · `Impact Factor: 8.072`
 
-</div>
+> Built a multimodal ML framework combining **clinical variables + CT-derived radiomic features** to predict NSCLC recurrence across 422 patients (TCIA Lung1 dataset).
+
+**Key Results:**
+- 🥇 Logistic Regression — AUC **0.915** (best overall)
+- 🥈 Deep Neural Network — AUC **0.900**, Accuracy **88%**
+- 🥉 Gradient Boosting — AUC **0.893**, Accuracy **90%**
+- Logistic Regression correctly classified **55/56 recurrence cases** (sensitivity 98.2%)
+- Extracted **59 radiomic descriptors** (GLCM, LBP, DWT, FFT) + clinical TNM staging features
+- Weighted fusion strategy: clinical 45% + radiomic 55%
+
+**Co-authors:** T. Monika, Dr. M. Chandran, Dr. T. Kumanan, Dr. M. Nisha
+**Institution:** Dr. M.G.R. Educational and Research Institute, Chennai
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -63,88 +59,53 @@ me.say_hi()
 <td width="50%">
 
 ### 🎨 [Portfolio Website](https://portfolio-clean-sigma.vercel.app/)
-> **Live & Deployed** — Interactive personal portfolio with a unique city-exploration UI
+> Live & deployed — interactive personal portfolio
 
-- 🏙️ Click buildings to explore projects (unique penguin easter egg!)
-- 🎯 Showcases AI research, ML projects & product design
-- ⚡ Deployed on **Vercel** with zero downtime
-- 📱 Fully responsive & animated
+- 🏙️ Unique city-exploration UI with clickable buildings
+- 🐧 Secret penguin easter egg hidden inside
+- ⚡ Deployed on **Vercel**
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20Now-A855F7?style=flat-square)](https://portfolio-clean-sigma.vercel.app/)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/🌐%20Live-Visit%20Now-A855F7?style=flat-square)](https://portfolio-clean-sigma.vercel.app/)
 
 </td>
 <td width="50%">
 
 ### 🧠 [Mental Health Support Chatbot](https://mental-health-support-egri.onrender.com/)
-> **Live & Deployed** — AI-powered safe space for mental wellness with voice support
+> Live & deployed — AI chatbot for mental wellness
 
-- 💬 Empathetic conversational AI chatbot
-- 🎙️ Voice input & text-to-speech output
-- 🆘 Built-in Indian crisis helpline references
-- ⚡ Deployed on **Render** — accessible 24/7
+- 💬 Empathetic conversational AI
+- 🎙️ Voice input & text-to-speech support
+- ⚡ Deployed on **Render**, accessible 24/7
 
-[![Live Demo](https://img.shields.io/badge/🧠%20Live%20Demo-Try%20Now-10B981?style=flat-square)](https://mental-health-support-egri.onrender.com/)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/🧠%20Live-Try%20Now-10B981?style=flat-square)](https://mental-health-support-egri.onrender.com/)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🦠 [AMR Prediction Model](https://github.com/Ayesha037/AMR-Project)
-> ML model to predict **Antimicrobial Resistance** using clinical data
+### 🫁 [NSCLC Recurrence Prediction](https://github.com/Ayesha037/AMR-Project)
+> Published ML research — clinical + radiomic AI
 
-- 🧬 Trained on real clinical datasets
-- 🤖 Supervised ML algorithms
-- 📊 Full data analysis & visualization
-- 🏥 Improving treatment decisions with AI
+- 🧬 422 patients · 59 radiomic features
+- 🤖 4 models: LR, RF, GB, DNN
+- 📊 Best AUC: **0.915** (Logistic Regression)
 
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
 </td>
 <td width="50%">
 
 ### 💳 [Credit Card Fraud Detection](https://github.com/Ayesha037/credit-card-fraud-detection)
-> Detecting financial fraud with **Python, SQL & ML**
+> ML-powered financial fraud intelligence
 
-- 🔍 Anomaly detection algorithms
-- 🗃️ SQL-powered data pipeline
-- 📈 High-accuracy classification
-- 🛡️ Real-world fraud intelligence
+- 🔍 Anomaly detection on real transaction data
+- 🗃️ SQL + Python data pipeline
+- 🛡️ High-accuracy classification models
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🛡️ [GraphShield](https://github.com/Ayesha037/GraphShield)
-> Graph-based **network security** analysis tool
-
-- 🕸️ Network graph modeling
-- 🔐 Vulnerability detection
-- 📡 Graph traversal algorithms
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NetworkX](https://img.shields.io/badge/-NetworkX-013243?style=flat-square)
-
-</td>
-<td width="50%">
-
-### 🔬 Research & Publications
-> **Published ML Researcher** in clinical AI
-
-- 📄 Focused on clinical ML & healthcare AI
-- 🧬 Non-Small Cell Lung Cancer recurrence prediction
-- 🏥 AI-driven diagnostic support systems
-- 🌍 AI for underserved medical communities
-
-![Research](https://img.shields.io/badge/-ML%20Research-FF6F00?style=flat-square&logo=google-scholar&logoColor=white)
 
 </td>
 </tr>
@@ -152,26 +113,28 @@ me.say_hi()
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 🛠️ Tech Stack
 
 <div align="center">
 
-### 🧠 AI / Machine Learning
+**AI / ML**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-### 🌐 Web & Deployment
+**Web & Deployment**
+
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### 🗄️ Data & Tools
+**Data & Tools**
+
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -196,40 +159,12 @@ me.say_hi()
 
 ---
 
-## 🎯 Current Focus
-
-```
-🔭  Working on  →  RAG systems & clinical AI models
-🌱  Learning    →  Deep Learning, Transformers, LangChain
-💡  Exploring   →  NLP for mental health & low-resource languages
-🚀  Deployed    →  Portfolio (Vercel) + Mental Health App (Render)
-🤝  Open to     →  Research collaborations & AI-for-good projects
-📚  Status      →  Published ML Researcher | CS Student
-```
-
----
-
-## 🌍 Mission Statement
+## 📫 Connect with Me
 
 <div align="center">
 
-> *"I believe the most powerful application of artificial intelligence*
-> *is one that touches lives — whether it's predicting antibiotic resistance,*
-> *supporting mental health, or protecting people from fraud.*
-> *Technology should serve humanity, not the other way around."*
->
-> — **Ayesha Summaiyya** 🌸
-
-</div>
-
----
-
-## 📫 Let's Connect
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-portfolio--clean--sigma.vercel.app-A855F7?style=for-the-badge)](https://portfolio-clean-sigma.vercel.app/)
-[![Mental Health App](https://img.shields.io/badge/🧠%20MH%20Chatbot-mental--health--support.onrender.com-10B981?style=for-the-badge)](https://mental-health-support-egri.onrender.com/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-portfolio--clean--sigma.vercel.app-A855F7?style=for-the-badge&logo=vercel)](https://portfolio-clean-sigma.vercel.app/)
+[![Mental Health App](https://img.shields.io/badge/MH%20Chatbot-mental--health--support.onrender.com-10B981?style=for-the-badge&logo=render)](https://mental-health-support-egri.onrender.com/)
 
 <br/>
 
@@ -239,7 +174,7 @@ me.say_hi()
 
 <br/>
 
-*💜 Open to internships, research opportunities & collaboration in AI/ML*
+*Open to research collaborations, internships & AI-for-good projects 💜*
 
 </div>
 
@@ -249,6 +184,6 @@ me.say_hi()
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer&animation=fadeIn" />
 
-**✨ "Code with purpose. Deploy with heart. Build AI that heals." ✨**
+**"Code with purpose. Build with heart. Deploy with impact."**
 
 </div>
