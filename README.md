@@ -5,6 +5,8 @@
 
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Live-A855F7?style=for-the-badge)](https://portfolio-clean-sigma.vercel.app/)
 [![Mental Health App](https://img.shields.io/badge/🧠%20Mental%20Health%20App-Live-10B981?style=for-the-badge)](https://mental-health-support-egri.onrender.com/)
+[![lead_scoring_App](https://leadscoringproject-4zdbml2fauqqo9kwyzbc2p.streamlit.app/)
+[!
 [![GitHub followers](https://img.shields.io/github/followers/Ayesha037?label=Followers&style=social)](https://github.com/Ayesha037)
 [![Profile Views](https://komarev.com/ghpvc/?username=Ayesha037&color=blueviolet&style=flat-square&label=Profile+Views)](https://github.com/Ayesha037)
 
