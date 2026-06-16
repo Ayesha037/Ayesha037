@@ -17,7 +17,7 @@
 
 ## 🙋‍♀️ About Me
 
-I'm a final-year CS student who builds AI that actually does something useful — from predicting lung cancer recurrence to supporting mental health. My research on NSCLC recurrence prediction using clinical and radiomic features got published in **ISJEM (Impact Factor 8.072)**, which I'm genuinely proud of.
+ who builds AI that actually does something useful — from predicting lung cancer recurrence to supporting mental health. My research on NSCLC recurrence prediction using clinical and radiomic features got published in **ISJEM (Impact Factor 8.072)**, which I'm genuinely proud of.
 
 Outside research, I ship real things — a mental health chatbot and my portfolio are both live and deployed. I care about making AI accessible, interpretable, and meaningful.
 
