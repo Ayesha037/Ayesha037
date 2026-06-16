@@ -140,7 +140,7 @@ me.say_hi()
 > **Published ML Researcher** in clinical AI
 
 - 📄 Focused on clinical ML & healthcare AI
-- 🧬 AMR prediction using real patient data
+- 🧬 Non-Small Cell Lung Cancer recurrence prediction
 - 🏥 AI-driven diagnostic support systems
 - 🌍 AI for underserved medical communities
 
