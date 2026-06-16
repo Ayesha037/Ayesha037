@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Mohammad%20Ayesha%20Summaiyya&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=CS%20Student%20%7C%20Published%20ML%20Researcher%20%7C%20AI%20for%20Healthcare&descAlignY=58&descSize=18" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Published+in+ISJEM+%28Impact+Factor+8.072%29+%F0%9F%93%84;Built+a+live+Mental+Health+Chatbot+%F0%9F%A7%A0;Predicting+Lung+Cancer+Recurrence+with+ML+%F0%9F%AB%81;Deploying+AI+that+actually+helps+people+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines)
 
 <br/>
 
