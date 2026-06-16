@@ -66,7 +66,7 @@ I build intelligent systems that turn complex medical and financial data into ac
 - Crisis keyword detection with safety protocols
 - 87% emotion detection accuracy
 - Tech: Python, Flask, speech_recognition, HTML/CSS
-- 🔗 Try it live: [mental-health-support-egri.onrender.com]
+- 🔗 Try it live: [mental-health-support-egri.onrender.com](https://mental-health-support-egri.onrender.com/)
 
 ### 🔗 [GraphShield - Fraud Ring Detection](https://github.com/Ayesha037/GraphShield)
 **Graph-based fraud detection using node2vec embeddings**
