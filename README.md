@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Mohammad%20Ayesha%20Summaiyya&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=CS%20Student%20%7C%20Published%20ML%20Researcher%20%7C%20AI%20for%20Healthcare&descAlignY=58&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Mohammad%20Ayesha%20Summaiyya&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=AI%20for%20Healthcare&descAlignY=58&descSize=18" />
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Live-A855F7?style=for-the-badge)](https://portfolio-clean-sigma.vercel.app/)
