@@ -1,108 +1,129 @@
+<!-- GitHub Profile README -->
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Mohammad%20Ayesha%20Summaiyya&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=&descAlignY=58&descSize=18" />
-<br/>
+# 👋 Hey, I'm Ayesha! 
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Live-A855F7?style=for-the-badge)](https://portfolio-clean-sigma.vercel.app/)
-[![Mental Health App](https://img.shields.io/badge/🧠%20Mental%20Health%20App-Live-10B981?style=for-the-badge)](https://mental-health-support-egri.onrender.com/)
-[![GitHub followers](https://img.shields.io/github/followers/Ayesha037?label=Followers&style=social)](https://github.com/Ayesha037)
-[![Profile Views](https://komarev.com/ghpvc/?username=Ayesha037&color=blueviolet&style=flat-square&label=Profile+Views)](https://github.com/Ayesha037)
+### Data Analyst | ML Engineer | Full-Stack Developer
+### Building production systems that turn data into impact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ayesha037)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=globe&logoColor=white)](https://portfolio-clean-sigma.vercel.app/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:msumaiya03579@gmail.com)
+
+**🔗 Let's build something amazing together!**
 
 </div>
 
 ---
 
-## 🙋‍♀️ About Me
+## 🚀 What I Do
 
- who builds AI that actually does something useful — from predicting lung cancer recurrence to supporting mental health. My research on NSCLC recurrence prediction using clinical and radiomic features got published in **ISJEM (Impact Factor 8.072)**, which I'm genuinely proud of.
+I ship **production-grade analytics systems** that solve real problems. Not just code. **Impact.**
 
-Outside research, I ship real things — a mental health chatbot and my portfolio are both live and deployed. I care about making AI accessible, interpretable, and meaningful.
-
----
-
-## 📄 Published Research
-
-<table>
-<tr>
-<td>
-
-### 🫁 Machine Learning Based Prediction of Recurrence in Non-Small Cell Lung Cancer
-**International Scientific Journal of Engineering and Management (ISJEM)**
-`Volume 05 | Issue 04 | April 2026` · `DOI: 10.55041/ISJEM06362` · `Impact Factor: 8.072`
-
-> Built a multimodal ML framework combining **clinical variables + CT-derived radiomic features** to predict NSCLC recurrence across 422 patients (TCIA Lung1 dataset).
-
-**Key Results:**
-- 🥇 Logistic Regression — AUC **0.915** (best overall)
-- 🥈 Deep Neural Network — AUC **0.900**, Accuracy **88%**
-- 🥉 Gradient Boosting — AUC **0.893**, Accuracy **90%**
-- Logistic Regression correctly classified **55/56 recurrence cases** (sensitivity 98.2%)
-- Extracted **59 radiomic descriptors** (GLCM, LBP, DWT, FFT) + clinical TNM staging features
-- Weighted fusion strategy: clinical 45% + radiomic 55%
-
-**Co-authors:** T. Monika, Dr. M. Chandran, Dr. T. Kumanan, Dr. M. Nisha
-**Institution:** Dr. M.G.R. Educational and Research Institute, Chennai
-
-</td>
-</tr>
-</table>
+**Specialty:** End-to-end data pipelines, ML models, interactive dashboards, and automation that saves time.
 
 ---
 
-## 🚀 Featured Projects
+## 📊 6 Deployed Projects (Live & Production-Ready)
 
 <table>
 <tr>
 <td width="50%">
 
-### 🎨 [Portfolio Website](https://portfolio-clean-sigma.vercel.app/)
-> Live & deployed — interactive personal portfolio
+### 🌍 India Air Quality Intelligence
+**Real-time AQI monitoring for 200+ cities**
 
-- 🏙️ Unique city-exploration UI with clickable buildings
-- 🐧 Secret penguin easter egg hidden inside
-- ⚡ Deployed on **Vercel**
+[🔗 Live Dashboard](https://airqualityintelligencesystem-5yx8ooqywlmh9syyyecvht.streamlit.app/) | [📂 Code](https://github.com/Ayesha037/India-air-quality-Intelligence-system)
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live-Visit%20Now-A855F7?style=flat-square)](https://portfolio-clean-sigma.vercel.app/)
+- ✅ 200+ cities tracked live
+- ✅ <2 second dashboard load
+- ✅ Automated Excel reports
+- ✅ Alert system (Critical/Warning/Good)
+
+**Tech:** Python, Pandas, Streamlit, Openpyxl, WAQI API
 
 </td>
 <td width="50%">
 
-### 🧠 [Mental Health Support Chatbot](https://mental-health-support-egri.onrender.com/)
-> Live & deployed — AI chatbot for mental wellness
+### 📈 Ad Campaign Analytics Platform
+**Marketing intelligence dashboard**
 
-- 💬 Empathetic conversational AI
-- 🎙️ Voice input & text-to-speech support
-- ⚡ Deployed on **Render**, accessible 24/7
+[🔗 Live Demo](https://adcampaignproject-zv64ginbqxbrkvf2yffdlj.streamlit.app/) | [📂 Code](https://github.com/Ayesha037/ad_campaign_project)
 
-[![Live Demo](https://img.shields.io/badge/🧠%20Live-Try%20Now-10B981?style=flat-square)](https://mental-health-support-egri.onrender.com/)
+- ✅ 80% automation savings
+- ✅ Multi-channel campaign tracking
+- ✅ CTR, ROAS, CPL metrics
+- ✅ Trend analysis & recommendations
+
+**Tech:** Python, Excel, Streamlit, Pandas
 
 </td>
 </tr>
+
 <tr>
 <td width="50%">
 
-### 🫁 [NSCLC Recurrence Prediction](https://github.com/Ayesha037/AMR-Project)
-> Published ML research — clinical + radiomic AI
+### 🎯 Lead Scoring ML Model
+**Sales optimization system**
 
-- 🧬 422 patients · 59 radiomic features
-- 🤖 4 models: LR, RF, GB, DNN
-- 📊 Best AUC: **0.915** (Logistic Regression)
+[🔗 Live Demo](https://leadscoringproject-4zdbml2fauqqo9kwyzbc2p.streamlit.app/) | [📂 Code](https://github.com/Ayesha037/lead_Scoring_project)
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+- ✅ 40% efficiency improvement
+- ✅ XGBoost + Random Forest
+- ✅ 0.87 F1-score
+- ✅ SHAP explanations
+
+**Tech:** Scikit-learn, XGBoost, Streamlit, Pandas
 
 </td>
 <td width="50%">
 
-### 💳 [Credit Card Fraud Detection](https://github.com/Ayesha037/credit-card-fraud-detection)
-> ML-powered financial fraud intelligence
+### 🧠 Mental Health Support System
+**AI-powered wellness assistant**
 
-- 🔍 Anomaly detection on real transaction data
-- 🗃️ SQL + Python data pipeline
-- 🛡️ High-accuracy classification models
+[🔗 View Project](https://github.com/Ayesha037/mental-health) | **[Deployed]**
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+- ✅ Conversational AI
+- ✅ Mental health resources
+- ✅ User-friendly interface
+- ✅ Production deployment
+
+**Tech:** LLMs, FastAPI, Frontend integration
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🔐 RAG (Retrieval-Augmented Generation)
+**Intelligent document Q&A system**
+
+[🔗 Demo](https://github.com/Ayesha037/rag-chatbot) | **[Production-Grade]**
+
+- ✅ LangChain architecture
+- ✅ FAISS vector search
+- ✅ Sub-10s response time
+- ✅ $0 API cost (open-source LLMs)
+
+**Tech:** LangChain, FAISS, LLaMA3, Groq, FastAPI
+
+</td>
+<td width="50%">
+
+### 💼 Personal Portfolio
+**Showcase of all my work**
+
+[🔗 Visit Portfolio](https://portfolio-clean-sigma.vercel.app/) | **[Live]**
+
+- ✅ All projects in one place
+- ✅ Interactive demos
+- ✅ Case studies
+- ✅ Contact & collaboration
+
+**Tech:** React, Next.js, Tailwind, Vercel
 
 </td>
 </tr>
@@ -114,73 +135,121 @@ Outside research, I ship real things — a mental health chatbot and my portfoli
 
 <div align="center">
 
-**AI / ML**
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+### Data & Analytics
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
-**Web & Deployment**
+### BI & Visualization
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2CC0C?style=flat-square&logo=power-bi&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+### ML & AI
+![XGBoost](https://img.shields.io/badge/XGBoost-00AA00?style=flat-square&logo=xgboost&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 
-**Data & Tools**
-
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Ayesha037&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ayesha037&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayesha037&theme=tokyonight&hide_border=true&layout=compact&langs_count=6" />
+### Cloud & DevOps
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Streamlit Cloud](https://img.shields.io/badge/Streamlit%20Cloud-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 </div>
 
 ---
 
-## 📫 Connect with Me
+## 📊 Key Achievements
+
+| Achievement | Detail |
+|-----------|--------|
+| 🚀 **6 Deployed Projects** | Live, production-grade systems |
+| 📈 **40% Efficiency Gains** | Lead Scoring ML model impact |
+| 🤖 **200+ Real-Time Data Points** | India Air Quality System scale |
+| 📚 **Peer-Reviewed Publication** | ISJEM Journal, IF 8.072 |
+| 🎓 **Full-Stack Analytics** | API → Pipeline → Insight → Action |
+| 💡 **0.87 F1-Score** | ML Model accuracy on validation |
+| 🌟 **Production Systems** | Not just projects - shipped products |
+
+---
+
+## 🔬 Research & Publications
+
+**ML-Based Prediction of Non-Small Cell Lung Cancer Recurrence**  
+📖 International Scientific Journal of Engineering and Management (ISJEM)  
+📅 April 2026 | Impact Factor: 8.072  
+🔗 [DOI: 10.55041/ISJEM06362](https://doi.org/10.55041/ISJEM06362)
+
+*Demonstrated research rigor through peer-reviewed ML publication comparing multiple model architectures with rigorous validation.*
+
+---
+
+## 🎯 Open For
+
+- 💼 **Data Analytics Roles** 
+- 🤖 **ML Engineering Positions**
+- 📊 **Analytics Engineer Opportunities**
+- 🚀 **Startup Collaborations**
+- 📖 **Open Source Contributions**
+
+**If you're building something cool, let's talk!**
+
+---
+
+## 📈 GitHub Stats
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-portfolio--clean--sigma.vercel.app-A855F7?style=for-the-badge&logo=vercel)](https://portfolio-clean-sigma.vercel.app/)
-[![Mental Health App](https://img.shields.io/badge/MH%20Chatbot-mental--health--support.onrender.com-10B981?style=for-the-badge&logo=render)](https://mental-health-support-egri.onrender.com/)
+![Ayesha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayesha037&show_icons=true&theme=dark&hide_border=true)
 
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-Ayesha037-181717?style=for-the-badge&logo=github)](https://github.com/Ayesha037)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ayesha-summaiyya)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail)](mailto:your-email@example.com)
-
-<br/>
-
-*Open to research collaborations, internships & AI-for-good projects 💜*
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayesha037&layout=compact&theme=dark&hide_border=true)
 
 </div>
 
 ---
 
+## 🌟 How I Work
+
+```
+Problem → Understand → Design → Build → Ship → Iterate
+```
+
+I don't just code. I solve problems by:
+1. **Understanding** the business context
+2. **Designing** scalable solutions
+3. **Building** production-ready systems
+4. **Shipping** to users
+5. **Iterating** based on feedback
+
+---
+
+## 🤝 Let's Connect
+
+**Open to:** Job opportunities, collaborations, coffee chats (virtually ☕)
+
+📧 **Email:** [msumaiya03579@gmail.com](mailto:msumaiya03579@gmail.com)  
+🔗 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333)  
+📱 **Phone:** [+91-9963638014](tel:+919963638014)  
+🌐 **Portfolio:** [See my work](https://portfolio-clean-sigma.vercel.app/)  
+💻 **GitHub:** [Explore my code](https://github.com/Ayesha037)
+
+---
+
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer&animation=fadeIn" />
+### 🚀 Ready to collaborate? Let's build something amazing!
 
-**"Code with purpose. Build with heart. Deploy with impact."**
+**[Contact Me](mailto:msumaiya03579@gmail.com)** | **[View Portfolio](https://portfolio-clean-sigma.vercel.app/)** | **[connect on LinkedIn](https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333)**
+
+⭐ If you like my work, please star my repositories! It means a lot.
+
+Made with ❤️  
+*Last updated: June 2026*
 
 </div>
