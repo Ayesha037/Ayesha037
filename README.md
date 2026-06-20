@@ -222,7 +222,6 @@ I don't just code. I solve problems by:
 
 📧 **Email:** [msumaiya03579@gmail.com](mailto:msumaiya03579@gmail.com)  
 🔗 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333)  
-📱 **Phone:** [+91-9963638014](tel:+919963638014)  
 🌐 **Portfolio:** [See my work](https://portfolio-clean-sigma.vercel.app/)  
 💻 **GitHub:** [Explore my code](https://github.com/Ayesha037)
 
