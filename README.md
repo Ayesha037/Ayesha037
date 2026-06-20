@@ -201,18 +201,6 @@ I ship **production-grade analytics systems** that solve real problems. Not just
 
 ---
 
-## 📈 GitHub Stats
-
-<div align="center">
-
-![Ayesha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayesha037&show_icons=true&theme=dark&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayesha037&layout=compact&theme=dark&hide_border=true)
-
-</div>
-
----
-
 ## 🌟 How I Work
 
 ```
