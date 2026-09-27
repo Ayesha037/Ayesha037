@@ -52,7 +52,7 @@ Reproducible codebase for a manuscript testing whether antimicrobial resistance 
 ### 🔐 RAG Chatbot
 **Production-grade document Q&A system**
 
-[📂 Code](https://github.com/Ayesha037/rag-chatbot) · **[Production-Grade]**
+[🔗 Live Demo](https://rag-chatbot-danjpg2yc4taeeerwzsvyp.streamlit.app/) | [📂 Code](https://github.com/Ayesha037/rag-chatbot) · **[Production-Grade]**
 
 - ✅ LangChain architecture
 - ✅ FAISS vector search
