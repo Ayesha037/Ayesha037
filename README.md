@@ -20,13 +20,72 @@
 
 ## 🚀 What I Do
 
-I ship **production-grade analytics systems** that solve real problems. Not just code. **Impact.**
+I ship **production-grade analytics and AI systems** that solve real problems. Not just code. **Impact.**
 
-**Specialty:** End-to-end data pipelines, ML models, interactive dashboards, and automation that saves time.
+**Specialty:** End-to-end ML pipelines, multi-agent AI systems, retrieval-augmented generation, and dashboards that turn raw data into decisions.
 
 ---
 
-## 📊 6 Deployed Projects (Live & Production-Ready)
+## 🏆 Flagship Research & AI Systems
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🧬 AMR-Project
+**Reliability of AMR phenotype prediction under strict generalization**
+
+[📂 Code](https://github.com/Ayesha037/AMR-Project)
+
+Reproducible codebase for a manuscript testing whether antimicrobial resistance prediction holds up once data leakage is controlled — accuracy swings from **82.4% → 43.8%** across four evaluation regimes, exposing how much models rely on memorized species–antibiotic pairs rather than genomic signal.
+
+- ✅ 801 labeled observations, 5 species, 46 antibiotics (BV-BRC dataset)
+- ✅ Leakage-safe pipeline (fold-strict feature encoding)
+- ✅ XGBoost + SHAP · 0.87 F1 · 0.91 AUC
+- ✅ Full ablation, permutation, and seed-robustness analysis
+
+**Tech:** Python, XGBoost, SHAP, Scikit-learn, Pandas
+
+</td>
+<td width="33%" valign="top">
+
+### 🔐 RAG Chatbot
+**Production-grade document Q&A system**
+
+[📂 Code](https://github.com/Ayesha037/rag-chatbot) · **[Production-Grade]**
+
+- ✅ LangChain architecture
+- ✅ FAISS vector search
+- ✅ Sub-10s response time
+- ✅ $0 API cost (open-source LLMs)
+
+**Tech:** LangChain, FAISS, LLaMA3, Groq, FastAPI
+
+</td>
+<td width="33%" valign="top">
+
+### 🧫 BioGenesis
+**Evidence-aware biomedical multi-agent research assistant**
+
+[📂 Code](https://github.com/Ayesha037/biogenesis)
+
+Takes a research question, retrieves PubMed literature, extracts and scores evidence, builds a knowledge graph, and runs three collaborating agents (**Planner → Hypothesis Generator → Scientific Critic**) to produce grounded, critiqued hypotheses — persisted across sessions.
+
+- ✅ 9 experiment configs (3 baselines + 6 ablations), same code path for all
+- ✅ 65 passing unit/integration tests, fully offline & deterministic
+- ✅ Citation→claim entailment checking, not just "has a citation"
+- ✅ Automated / LLM-judged / human metrics kept explicitly separate
+- ✅ $0 cost — runs entirely on free-tier APIs
+
+**Tech:** Python, LangChain-style agents, Groq, ChromaDB, NetworkX, sentence-transformers
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 More Deployed Projects (Live & Production-Ready)
 
 <table>
 <tr>
@@ -98,17 +157,16 @@ I ship **production-grade analytics systems** that solve real problems. Not just
 <tr>
 <td width="50%">
 
-### 🔐 RAG (Retrieval-Augmented Generation)
-**Intelligent document Q&A system**
+### 🕸️ GraphShield
+**Fraud ring detection on transaction networks**
 
-[🔗 Demo](https://github.com/Ayesha037/rag-chatbot) | **[Production-Grade]**
+[📂 Code](https://github.com/Ayesha037/GraphShield)
 
-- ✅ LangChain architecture
-- ✅ FAISS vector search
-- ✅ Sub-10s response time
-- ✅ $0 API cost (open-source LLMs)
+- ✅ node2vec graph embeddings
+- ✅ Community detection for coordinated fraud rings
+- ✅ Catches patterns row-level models miss
 
-**Tech:** LangChain, FAISS, LLaMA3, Groq, FastAPI
+**Tech:** Python, Graph ML, node2vec
 
 </td>
 <td width="50%">
@@ -168,12 +226,14 @@ I ship **production-grade analytics systems** that solve real problems. Not just
 
 | Achievement | Detail |
 |-----------|--------|
-| 🚀 **6 Deployed Projects** | Live, production-grade systems |
+| 🧬 **Rigorous AMR Methodology** | 4-regime leakage evaluation exposing hidden model shortcuts |
+| 🧫 **Multi-Agent Biomedical AI** | BioGenesis — 3 agents, 9 experiment configs, 65 passing tests |
+| 🚀 **7+ Deployed Projects** | Live, production-grade systems |
 | 📈 **40% Efficiency Gains** | Lead Scoring ML model impact |
 | 🤖 **200+ Real-Time Data Points** | India Air Quality System scale |
-| 📚 **Peer-Reviewed Publication** | ISJEM Journal, IF 8.072 |
-| 🎓 **Full-Stack Analytics** | API → Pipeline → Insight → Action |
-| 💡 **0.87 F1-Score** | ML Model accuracy on validation |
+| 📚 **Peer-Reviewed Publication** | ISJEM Journal (NSCLC recurrence), IF 8.072 |
+| 🧬 **Published AMR Preprint** | Zenodo, DOI-backed, co-authored |
+| 💡 **0.87 F1 / 0.91 AUC** | ML Model accuracy on validation |
 | 🌟 **Production Systems** | Not just projects - shipped products |
 
 ---
@@ -187,6 +247,13 @@ I ship **production-grade analytics systems** that solve real problems. Not just
 
 *Demonstrated research rigor through peer-reviewed ML publication comparing multiple model architectures with rigorous validation.*
 
+**Apparent Performance of Antimicrobial Resistance Phenotype Prediction Depends on the Definition of an Unseen Observation**  
+📖 Preprint · Zenodo · Published September 2026 · CC BY 4.0  
+🔗 [DOI: 10.5281/zenodo.22976451](https://doi.org/10.5281/zenodo.22976451) · [Code & Data](https://github.com/Ayesha037/AMR-Project)  
+👥 Co-authored with Kavya Sudha Vadlamudi
+
+*Four classifiers, four evaluation regimes, one finding: accuracy swings from 82.4% down to as low as ~40% depending on what a study defines as "unseen" — showing how much apparent AMR-prediction performance is actually memorized species–antibiotic relationships rather than genuine generalization.*
+
 ---
 
 ## 🎯 Open For
@@ -194,6 +261,7 @@ I ship **production-grade analytics systems** that solve real problems. Not just
 - 💼 **Data Analytics Roles** 
 - 🤖 **ML Engineering Positions**
 - 📊 **Analytics Engineer Opportunities**
+- 🧬 **Healthcare / Clinical ML Collaborations**
 - 🚀 **Startup Collaborations**
 - 📖 **Open Source Contributions**
 
@@ -237,6 +305,6 @@ I don't just code. I solve problems by:
 ⭐ If you like my work, please star my repositories! It means a lot.
 
 Made with ❤️  
-*Last updated: June 2026*
+*Last updated: September 2026*
 
 </div>
