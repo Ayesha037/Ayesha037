@@ -1,18 +1,17 @@
-<!-- GitHub Profile README -->
-
 <div align="center">
 
-# 👋 Hey, I'm Ayesha! 
+# 👋 Hey, I'm Ayesha!
 
-### Data Analyst | ML Engineer | Full-Stack Developer
-### Building production systems that turn data into impact
+### AI/ML Engineer | Healthcare AI & Clinical ML | Published Researcher
+
+**Building explainable, evidence-grounded AI systems for healthcare and risk**
+
+![Open to Work](https://img.shields.io/badge/🟢_OPEN_TO-ML_%2F_AI_Engineer_Roles-2ea44f?style=for-the-badge)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ayesha037)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=globe&logoColor=white)](https://portfolio-clean-sigma.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://portfolio-clean-sigma.vercel.app/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:msumaiya03579@gmail.com)
-
-**🔗 Let's build something amazing together!**
+[![Preprint](https://img.shields.io/badge/Preprint-Zenodo-1682D4?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22976451)
 
 </div>
 
@@ -20,291 +19,153 @@
 
 ## 🚀 What I Do
 
-I ship **production-grade analytics and AI systems** that solve real problems. Not just code. **Impact.**
+I build ML systems that **explain themselves**: models that show *why* they predicted something, and AI assistants that show *which evidence* backs an answer.
 
-**Specialty:** End-to-end ML pipelines, multi-agent AI systems, retrieval-augmented generation, and dashboards that turn raw data into decisions.
-
----
-
-## 🏆 Flagship Research & AI Systems
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 🧬 AMR-Project
-**Reliability of AMR phenotype prediction under strict generalization**
-
-[📂 Code](https://github.com/Ayesha037/AMR-Project)
-
-Reproducible codebase for a manuscript testing whether antimicrobial resistance prediction holds up once data leakage is controlled — accuracy swings from **82.4% → 43.8%** across four evaluation regimes, exposing how much models rely on memorized species–antibiotic pairs rather than genomic signal.
-
-- ✅ 801 labeled observations, 5 species, 46 antibiotics (BV-BRC dataset)
-- ✅ Leakage-safe pipeline (fold-strict feature encoding)
-- ✅ XGBoost + SHAP · 0.87 F1 · 0.91 AUC
-- ✅ Full ablation, permutation, and seed-robustness analysis
-
-**Tech:** Python, XGBoost, SHAP, Scikit-learn, Pandas
-
-</td>
-<td width="33%" valign="top">
-
-### 🔐 RAG Chatbot
-**Production-grade document Q&A system**
-
-[🔗 Live Demo](https://rag-chatbot-danjpg2yc4taeeerwzsvyp.streamlit.app/) | [📂 Code](https://github.com/Ayesha037/rag-chatbot) · **[Production-Grade]**
-
-- ✅ LangChain architecture
-- ✅ FAISS vector search
-- ✅ Sub-10s response time
-- ✅ $0 API cost (open-source LLMs)
-
-**Tech:** LangChain, FAISS, LLaMA3, Groq, FastAPI
-
-</td>
-<td width="33%" valign="top">
-
-### 🧫 BioGenesis
-**Evidence-aware biomedical multi-agent research assistant**
-
-[📂 Code](https://github.com/Ayesha037/biogenesis)
-
-Takes a research question, retrieves PubMed literature, extracts and scores evidence, builds a knowledge graph, and runs three collaborating agents (**Planner → Hypothesis Generator → Scientific Critic**) to produce grounded, critiqued hypotheses — persisted across sessions.
-
-- ✅ 9 experiment configs (3 baselines + 6 ablations), same code path for all
-- ✅ 65 passing unit/integration tests, fully offline & deterministic
-- ✅ Citation→claim entailment checking, not just "has a citation"
-- ✅ Automated / LLM-judged / human metrics kept explicitly separate
-- ✅ $0 cost — runs entirely on free-tier APIs
-
-**Tech:** Python, LangChain-style agents, Groq, ChromaDB, NetworkX, sentence-transformers
-
-</td>
-</tr>
-</table>
+**Specialty:** Explainable ML · RAG & multi-agent systems · Clinical and risk analytics · End-to-end deployment (API → Docker → CI)
 
 ---
 
-## 📊 More Deployed Projects (Live & Production-Ready)
+## 🧬 Flagship Project: [BioGenesis](https://github.com/Ayesha037/biogenesis)
 
-<table>
-<tr>
-<td width="50%">
+**An evidence-aware, multi-agent biomedical research assistant.**
+Ask a research question → it retrieves PubMed papers, extracts and scores evidence, builds a knowledge graph, and three agents produce **cited, critiqued hypotheses**, with memory that persists across sessions.
 
-### 🌍 India Air Quality Intelligence
-**Real-time AQI monitoring for 200+ cities**
+```mermaid
+flowchart LR
+  Q["🔬 Research question"] --> P["Planner agent"]
+  P --> R["PubMed retrieval"]
+  R --> S["Semantic retrieval (Chroma)"]
+  S --> E["Evidence extraction + scoring"]
+  E --> K["Knowledge graph + contradictions"]
+  M[("🧠 Persistent memory")] --> H
+  K --> H["Hypothesis Generator"]
+  H --> C["Scientific Critic"]
+  C --> V["Citation support check"]
+  V --> O["✅ Cited, critiqued hypotheses"]
+```
 
-[🔗 Live Dashboard](https://airqualityintelligencesystem-5yx8ooqywlmh9syyyecvht.streamlit.app/) | [📂 Code](https://github.com/Ayesha037/India-air-quality-Intelligence-system)
+✅ **Citations are verified, not just present.** A separate entailment pass checks that each cited source really supports the claim
+✅ **Contradictions are surfaced** in the knowledge graph and reported as a normalized rate
+✅ **Honest evaluation.** Automated, LLM-judged, and human metrics are never blended, and missing gold labels are never faked
+✅ **Built like research.** 3 baselines + 6 single-flag ablations on one code path, with tests enforcing it
+✅ **65 offline tests** · **$0 stack** (Groq, ChromaDB, sentence-transformers, NetworkX, SQLite)
 
-- ✅ 200+ cities tracked live
-- ✅ <2 second dashboard load
-- ✅ Automated Excel reports
-- ✅ Alert system (Critical/Warning/Good)
+**Tech:** Python, Groq, PubMed E-utilities, ChromaDB, sentence-transformers, NetworkX, SQLite, pytest
 
-**Tech:** Python, Pandas, Streamlit, Openpyxl, WAQI API
-
-</td>
-<td width="50%">
-
-### 📈 Ad Campaign Analytics Platform
-**Marketing intelligence dashboard**
-
-[🔗 Live Demo](https://adcampaignproject-zv64ginbqxbrkvf2yffdlj.streamlit.app/) | [📂 Code](https://github.com/Ayesha037/ad_campaign_project)
-
-- ✅ 80% automation savings
-- ✅ Multi-channel campaign tracking
-- ✅ CTR, ROAS, CPL metrics
-- ✅ Trend analysis & recommendations
-
-**Tech:** Python, Excel, Streamlit, Pandas
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🎯 Lead Scoring ML Model
-**Sales optimization system**
-
-[🔗 Live Demo](https://leadscoringproject-4zdbml2fauqqo9kwyzbc2p.streamlit.app/) | [📂 Code](https://github.com/Ayesha037/lead_Scoring_project)
-
-- ✅ 40% efficiency improvement
-- ✅ XGBoost + Random Forest
-- ✅ 0.87 F1-score
-- ✅ SHAP explanations
-
-**Tech:** Scikit-learn, XGBoost, Streamlit, Pandas
-
-</td>
-<td width="50%">
-
-### 🧠 Mental Health Support System
-**AI-powered wellness assistant**
-
-[🔗 View Project](https://github.com/Ayesha037/mental-health) | **[Deployed]**
-
-- ✅ Conversational AI
-- ✅ Mental health resources
-- ✅ User-friendly interface
-- ✅ Production deployment
-
-**Tech:** LLMs, FastAPI, Frontend integration
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🕸️ GraphShield
-**Fraud ring detection on transaction networks**
-
-[📂 Code](https://github.com/Ayesha037/GraphShield)
-
-- ✅ node2vec graph embeddings
-- ✅ Community detection for coordinated fraud rings
-- ✅ Catches patterns row-level models miss
-
-**Tech:** Python, Graph ML, node2vec
-
-</td>
-<td width="50%">
-
-### 💼 Personal Portfolio
-**Showcase of all my work**
-
-[🔗 Visit Portfolio](https://portfolio-clean-sigma.vercel.app/) | **[Live]**
-
-- ✅ All projects in one place
-- ✅ Interactive demos
-- ✅ Case studies
-- ✅ Contact & collaboration
-
-**Tech:** React, Next.js, Tailwind, Vercel
-
-</td>
-</tr>
-</table>
+> 🔧 **Status:** research prototype. Benchmark expansion (8 → 30–50 questions) and baseline-vs-ablation comparison in progress. Not a clinical decision-support tool.
 
 ---
 
-## 🛠️ Tech Stack
+## 🏥 Featured Projects
 
-<div align="center">
+| 🏥 MediGuard AI<br>**Predictive maintenance for hospital equipment**<br>[📂 Code](https://github.com/Ayesha037/MediGuard-AI)<br>✅ Predicts failures of ventilators, MRI scanners, infusion pumps<br>✅ 100 devices · full year of telemetry<br>✅ XGBoost + LightGBM + Isolation Forest<br>✅ SHAP "top 5 reasons" behind every alert<br>✅ Docker Compose + GitHub Actions CI<br>**Tech:** FastAPI, XGBoost, LightGBM, SHAP, Docker | 🧪 AMR Leakage Study<br>**Does accuracy survive leakage-free evaluation?**<br>[📂 Code](https://github.com/Ayesha037/AMR-Project) \| [📄 Preprint](https://doi.org/10.5281/zenodo.22976451)<br>✅ 4 classifiers × 4 evaluation regimes<br>✅ 801 BV-BRC observations<br>✅ Accuracy **0.824 → 0.406** (random split vs. leave-one-species-out)<br>✅ First-author preprint<br>**Tech:** scikit-learn, XGBoost, SHAP |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔐 RAG Document Assistant<br>**Retrieval-augmented Q&A as an API**<br>[🔗 Live Demo](https://rag-chatbot-danjpg2yc4taeeerwzsvyp.streamlit.app/) \| [📂 Code](https://github.com/Ayesha037/rag-chatbot)<br>✅ 6-endpoint REST API<br>✅ Sub-10s response time<br>✅ $0 inference cost (open-source LLMs)<br>**Tech:** LangChain, FAISS, LLaMA3, Groq, FastAPI | 🕸️ GraphShield<br>**Fraud-ring detection on transaction networks**<br>[📂 Code](https://github.com/Ayesha037/GraphShield)<br>✅ node2vec embeddings<br>✅ Community detection for anomalous clusters<br>✅ Interactive graph visualization<br>**Tech:** Python, node2vec, graph analytics |
+| 👁️ Safety Monitor<br>**Real-time industrial hazard detection**<br>[📂 Code](https://github.com/Ayesha037/safety_monitor)<br>✅ Computer vision pipeline<br>✅ Real-time detection<br>**Tech:** OpenCV, PyTorch | 🎯 Lead Scoring ML Model<br>**Explainable account prioritization**<br>[🔗 Live Demo](https://leadscoringproject-4zdbml2fauqqo9kwyzbc2p.streamlit.app/) \| [📂 Code](https://github.com/Ayesha037/lead_Scoring_project)<br>✅ XGBoost + Random Forest<br>✅ SHAP explanations<br>✅ Plain-English reports for non-technical users<br>**Tech:** scikit-learn, XGBoost, Streamlit |
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+<details>
+<summary><b>📦 More projects</b></summary>
 
-### Data & Analytics
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+- 🌍 [India Air Quality Intelligence](https://github.com/Ayesha037/India-air-quality-Intelligence-system): live AQI monitoring with automated Excel reports and alerts · [Live](https://airqualityintelligencesystem-5yx8ooqywlmh9syyyecvht.streamlit.app/)
+- 📈 [Ad Campaign Analytics](https://github.com/Ayesha037/ad_campaign_project): automated multi-channel reporting (CTR, ROAS, CPL) · [Live](https://adcampaignproject-zv64ginbqxbrkvf2yffdlj.streamlit.app/)
+- 💳 [Credit Card Fraud Detection](https://github.com/Ayesha037/credit-card-fraud-detection): Python, SQL, and ML classifiers
+- 🧠 [Mental Health Support (demo)](https://github.com/Ayesha037/MENTAL_HEALTH_SUPPORT): emotion analysis and crisis-keyword detection · *demo only, not a clinical tool*
 
-### BI & Visualization
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2CC0C?style=flat-square&logo=power-bi&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-
-### ML & AI
-![XGBoost](https://img.shields.io/badge/XGBoost-00AA00?style=flat-square&logo=xgboost&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-
-### Cloud & DevOps
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Streamlit Cloud](https://img.shields.io/badge/Streamlit%20Cloud-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-
-</div>
+</details>
 
 ---
 
 ## 📊 Key Achievements
 
 | Achievement | Detail |
-|-----------|--------|
-| 🧬 **Rigorous AMR Methodology** | 4-regime leakage evaluation exposing hidden model shortcuts |
-| 🧫 **Multi-Agent Biomedical AI** | BioGenesis — 3 agents, 9 experiment configs, 65 passing tests |
-| 🚀 **7+ Deployed Projects** | Live, production-grade systems |
-| 📈 **40% Efficiency Gains** | Lead Scoring ML model impact |
-| 🤖 **200+ Real-Time Data Points** | India Air Quality System scale |
-| 📚 **Peer-Reviewed Publication** | ISJEM Journal (NSCLC recurrence), IF 8.072 |
-| 🧬 **Published AMR Preprint** | Zenodo, DOI-backed, co-authored |
-| 💡 **0.87 F1 / 0.91 AUC** | ML Model accuracy on validation |
-| 🌟 **Production Systems** | Not just projects - shipped products |
+| ----------- | ------ |
+| 🧬 **First-Author Preprint** | AMR prediction accuracy falls 0.824 → 0.406 under leakage-free evaluation |
+| 📚 **2 Publications** | Zenodo preprint (first author) + ISJEM lung-cancer recurrence paper (lead author) |
+| 🏥 **100 Devices · 1 Year** | Telemetry behind MediGuard AI failure prediction |
+| 🧪 **65 Tests · 9 Configs** | BioGenesis experiment framework (3 baselines + 6 ablations) |
+| 💸 **$0 Inference** | RAG assistant and BioGenesis run on open-source / free-tier stack |
+| 🚀 **4 Live Demos** | RAG, Lead Scoring, Ad Campaign, Air Quality, plus the portfolio site |
 
 ---
 
 ## 🔬 Research & Publications
 
-**ML-Based Prediction of Non-Small Cell Lung Cancer Recurrence**  
-📖 International Scientific Journal of Engineering and Management (ISJEM)  
-📅 April 2026 | Impact Factor: 8.072  
+**Apparent Performance of Antimicrobial Resistance Phenotype Prediction Depends on the Definition of an Unseen Observation**
+📖 Zenodo preprint · First author · 2026
+🔗 [DOI: 10.5281/zenodo.22976451](https://doi.org/10.5281/zenodo.22976451)
+
+**ML-Based Prediction of Recurrence in Non-Small Cell Lung Cancer**
+📖 International Scientific Journal of Engineering and Management (ISJEM) · Lead author · April 2026
 🔗 [DOI: 10.55041/ISJEM06362](https://doi.org/10.55041/ISJEM06362)
 
-*Demonstrated research rigor through peer-reviewed ML publication comparing multiple model architectures with rigorous validation.*
+---
 
-**Apparent Performance of Antimicrobial Resistance Phenotype Prediction Depends on the Definition of an Unseen Observation**  
-📖 Preprint · Zenodo · Published September 2026 · CC BY 4.0  
-🔗 [DOI: 10.5281/zenodo.22976451](https://doi.org/10.5281/zenodo.22976451) · [Code & Data](https://github.com/Ayesha037/AMR-Project)  
-👥 Co-authored with Kavya Sudha Vadlamudi
+## 🛠️ Tech Stack
 
-*Four classifiers, four evaluation regimes, one finding: accuracy swings from 82.4% down to as low as ~40% depending on what a study defines as "unseen" — showing how much apparent AMR-prediction performance is actually memorized species–antibiotic relationships rather than genuine generalization.*
+**ML & Explainability**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-00AA00?style=flat-square&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-2980B9?style=flat-square&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-8E44AD?style=flat-square&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+
+**GenAI & Agents**
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square&logoColor=white)
+![LLaMA3](https://img.shields.io/badge/LLaMA3-0866FF?style=flat-square&logo=meta&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-4B8BBE?style=flat-square&logoColor=white)
+
+**Backend, Data & DevOps**
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
 ---
 
 ## 🎯 Open For
 
-- 💼 **Data Analytics Roles** 
-- 🤖 **ML Engineering Positions**
-- 📊 **Analytics Engineer Opportunities**
-- 🧬 **Healthcare / Clinical ML Collaborations**
-- 🚀 **Startup Collaborations**
-- 📖 **Open Source Contributions**
-
-**If you're building something cool, let's talk!**
+- 🤖 **ML Engineer / Associate ML Engineer** roles
+- 🧠 **AI / GenAI Engineer** roles (RAG, agents, evaluation)
+- 🏥 **Healthcare AI & Clinical ML** teams
+- 🛡️ **Fintech risk & fraud analytics** teams
+- 📖 **Research collaborations & open source**
 
 ---
 
 ## 🌟 How I Work
 
 ```
-Problem → Understand → Design → Build → Ship → Iterate
+Question → Evidence → Build → Evaluate honestly → Explain → Ship
 ```
 
-I don't just code. I solve problems by:
-1. **Understanding** the business context
-2. **Designing** scalable solutions
-3. **Building** production-ready systems
-4. **Shipping** to users
-5. **Iterating** based on feedback
+1. **Evaluate before I celebrate.** I test under the strictest split I can defend and report the number that survives.
+2. **Explain every prediction.** SHAP, source traceability, and citation checks are part of the design, not an afterthought.
+3. **Ship it.** Docker, CI, tests, and a live demo, not just a notebook.
+4. **Write the limitations down.** Every serious repo I publish has a "Known limitations" section.
 
 ---
 
 ## 🤝 Let's Connect
 
-**Open to:** Job opportunities, collaborations, coffee chats (virtually ☕)
+**Open to:** Full-time ML / AI Engineer roles · Research collaborations · Coffee chats ☕
 
-📧 **Email:** [msumaiya03579@gmail.com](mailto:msumaiya03579@gmail.com)  
-🔗 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333)  
-🌐 **Portfolio:** [See my work](https://portfolio-clean-sigma.vercel.app/)  
+📧 **Email:** <msumaiya03579@gmail.com>
+🔗 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333)
+🌐 **Portfolio:** [See my work](https://portfolio-clean-sigma.vercel.app/)
 💻 **GitHub:** [Explore my code](https://github.com/Ayesha037)
-
----
-
 
 <div align="center">
 
-### 🚀 Ready to collaborate? Let's build something amazing!
-
-**[Contact Me](mailto:msumaiya03579@gmail.com)** | **[View Portfolio](https://portfolio-clean-sigma.vercel.app/)** | **[connect on LinkedIn](https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333)**
-
-⭐ If you like my work, please star my repositories! It means a lot.
-
-Made with ❤️  
-*Last updated: September 2026*
+### 🚀 Hiring for ML or AI in healthtech or risk? Let's talk.
 
 </div>
