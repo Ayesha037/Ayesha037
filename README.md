@@ -1,79 +1,77 @@
-<h1 align="center">Ayesha Summaiyya</h1>
-<h3 align="center">I find out when medical AI stops working.</h3>
+<h1 align="center">Hi, I'm Ayesha 👋</h1>
+<h3 align="center">I test medical AI until it breaks, so patients don't have to find out how.</h3>
 
 <p align="center">
 A model that scores <b>82%</b> in a notebook can fall to <b>41%</b> on a case it has never seen.<br>
-In medicine, that gap is not a rounding error. I look for it before someone relies on it.
+That gap is where trust gets lost in healthcare. Finding it is what I do, and I love it.
 </p>
 
 <p align="center">
-<a href="https://doi.org/10.5281/zenodo.22976451">Preprint (first author)</a> ·
-<a href="https://doi.org/10.55041/ISJEM06362">Journal paper (lead author)</a> ·
-<a href="https://portfolio-clean-sigma.vercel.app/">Portfolio</a> ·
-<a href="https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333">LinkedIn</a> ·
-<a href="mailto:msumaiya03579@gmail.com">Email</a>
+<a href="https://doi.org/10.5281/zenodo.22976451">📄 Preprint (first author)</a> ·
+<a href="https://doi.org/10.55041/ISJEM06362">📄 Journal paper (lead author)</a> ·
+<a href="https://portfolio-clean-sigma.vercel.app/">🌐 Portfolio</a> ·
+<a href="https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333">💼 LinkedIn</a> ·
+<a href="mailto:msumaiya03579@gmail.com">✉️ Email</a>
 </p>
 
 ---
 
-## Start here
+## What I believe
 
-| If you have 1 minute | Read |
-|---|---|
-| The finding | [**AMR-Project**](https://github.com/Ayesha037/AMR-Project): accuracy falls from 0.824 to 0.406 when "unseen" is defined honestly |
-| The ambition | [**BioGenesis**](https://github.com/Ayesha037/biogenesis): biomedical AI that must show and verify its evidence |
-| The human side | [**Mental health chatbot**](https://github.com/Ayesha037/MENTAL_HEALTH_SUPPORT): crisis escalation, built to be reviewed by counsellors |
+Medical AI shouldn't just be impressive. It should be **trustworthy**: tested under hard conditions, honest about its limits, and able to show where its answers come from.
+
+I started with computer science, got curious about machine learning, and developed a slightly dangerous habit of turning questions into projects. The questions that stuck all had one thing in common: *can we trust this?*
 
 ---
 
-## Research
+## What I've done
 
-| | |
-|---|---|
-| 🧫 **Apparent Performance of Antimicrobial Resistance Phenotype Prediction Depends on the Definition of an Unseen Observation** | Zenodo preprint · first author · 2026 · [DOI 10.5281/zenodo.22976451](https://doi.org/10.5281/zenodo.22976451) |
-| 🫁 **ML-Based Prediction of Recurrence in Non-Small Cell Lung Cancer** | *International Scientific Journal of Engineering and Management* · lead author · April 2026 · [DOI 10.55041/ISJEM06362](https://doi.org/10.55041/ISJEM06362) |
-
-**Research direction:** why biomedical ML results look better than they are, and how to build systems that stay honest about what they know. That means **evaluation design** (how "unseen" is defined) and **evidence-grounded generation** (an AI that shows, and has checked, its sources).
+- 🧫 **Showed that apparent accuracy can collapse.** In antimicrobial-resistance prediction, accuracy fell from **0.824 to 0.406** once "unseen" was defined honestly. First-author preprint.
+- 🫁 **Published on lung cancer recurrence prediction.** Lead author, journal paper, April 2026.
+- 💡 **Got an idea funded.** Selected for incubation at the A.P.J. Abdul Kalam Center of Excellence and Innovation, with **₹2.5 lakh** to develop it.
+- 🧭 **Led a team.** As president of the innovation club Innofy, I ran a week-long programme with a hackathon and a business simulation.
 
 ---
 
-## Featured projects
+## What I'm building
 
-### 🧫 AMR-Project · *does the accuracy survive?*
-Four classifiers, four evaluation regimes, 801 BV-BRC observations.
-**Result:** accuracy falls from **0.824** (random split) to **0.406** (leave-one-species-out).
-**Setup:** [[ADD: the four regimes in one line each, the metric, and what "unseen" means]]
-**Limits:** small dataset (41 genomes, 5 species). A methodological result, not a clinical claim.
-→ [Repository](https://github.com/Ayesha037/AMR-Project) · [Preprint](https://doi.org/10.5281/zenodo.22976451)
+### 🧬 BioGenesis: biomedical AI that shows its evidence
+[Repository](https://github.com/Ayesha037/biogenesis) · *research prototype, actively developing*
 
-### 🧬 BioGenesis · *can an AI show its evidence?*
 ```
 Question → Planner → PubMed retrieval → Evidence scoring → Knowledge graph
         → Hypotheses that must cite papers → Critic → Citation-support check
 ```
-Nine configurations (3 baselines, the full system, 5 ablations) on one code path and a 40-question benchmark, so every design choice can be measured.
-**Status:** *research prototype.* [[UPDATE after rerun, e.g. "baselines and full system run; ablations in progress"]]
-**Limits:** documented in the repo, including the failure modes.
-→ [Repository](https://github.com/Ayesha037/biogenesis)
 
-### 💬 Mental health support chatbot · *what if someone vulnerable is on the other end?*
-Emotion-aware replies, crisis-keyword escalation to helplines, voice support. Built with faculty guidance.
-**Status:** live prototype. Next: counsellor review of the crisis flow and feedback from real users.
-→ [Repository](https://github.com/Ayesha037/MENTAL_HEALTH_SUPPORT)
+An AI that has to cite real papers for every claim, then checks that each paper truly supports it. Nine configurations (3 baselines, the full system, 5 ablations) on a 40-question benchmark, so I can measure which ideas actually help, and publish the ones that don't.
+**Status:** [[UPDATE after rerun, e.g. "baselines and full system run; ablations in progress"]]
 
-### ⚙️ MediGuard AI · *engineering, end to end*
-Failure prediction with XGBoost, LightGBM and SHAP behind a FastAPI service with Docker and CI, on public industrial datasets.
-→ [Repository](https://github.com/Ayesha037/MediGuard-AI)
+### 🧫 AMR-Project: does the accuracy survive?
+[Repository](https://github.com/Ayesha037/AMR-Project) · [Preprint](https://doi.org/10.5281/zenodo.22976451)
+Four classifiers, four evaluation regimes, 801 BV-BRC observations.
+**Setup:** [[ADD: the four regimes, the metric, and what "unseen" means]]
+**Honest limit:** small dataset (41 genomes, 5 species), so this is a methodological result, not a clinical claim.
+
+### 💬 A mental health support chatbot
+[Repository](https://github.com/Ayesha037/MENTAL_HEALTH_SUPPORT) · *live prototype*
+Emotion-aware replies, crisis-keyword escalation to helplines, voice support. Next: counsellor review and feedback from real users.
+
+### ⚙️ MediGuard AI: failure prediction, end to end
+[Repository](https://github.com/Ayesha037/MediGuard-AI)
+XGBoost, LightGBM and SHAP behind a FastAPI service with Docker and CI, on public industrial datasets.
+
+---
+
+## Where I'm heading
+
+I want to build medical AI that deserves the trust people place in it. That means getting better at **evaluation** (how we define "unseen") and **evidence-grounded systems** (AI that shows, and has checked, its sources).
 
 ---
 
-## Beyond code
+## Let's talk
 
-- Selected for incubation at the **A.P.J. Abdul Kalam Center of Excellence and Innovation**; awarded **₹2.5 lakh** to develop an idea.
-- **President, Innofy innovation club:** a week-long programme with a hackathon and a business simulation.
+I love working with people who care about getting the answer right. If you work on healthcare AI, evaluation or reproducibility, I'd really like to hear from you.
 
----
+📧 [msumaiya03579@gmail.com](mailto:msumaiya03579@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/mohammad-ayesha-summaiyya-b94351333) · 🌐 [Portfolio](https://portfolio-clean-sigma.vercel.app/)
 
 > **Every claim on this page links to proof.** If I can't show it, I don't say it.
-
-📧 [msumaiya03579@gmail.com](mailto:msumaiya03579@gmail.com) · Open to research collaborations in healthcare AI, evaluation and reproducibility.
